@@ -1,0 +1,41 @@
+/*---------------------Estilos NAV --------------------*/
+.topNav {
+    grid-area: areaNav;
+    background-image: linear-gradient(to right, aqua, grey);
+    padding: 20px 0 40px 0;
+    color: black;
+    font-family: "open Sans";
+    width: 100%;
+}
+
+.topNav__li {
+    float: left;
+    font-size: 18px;
+    font-family: "open Sans";
+    text-transform: uppercase;
+    color: black;
+}
+
+.topNav__a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    font-family: "open Sans";
+}
+
+.topNav__ul {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    flex-direction: column;
+}
+
+.topNav__a:hover {
+    background-color: #434343;
+}
+
+.topNav__li:hover>ul {
+    display: block;
+    background-image: linear-gradient(to right, aqua, grey);
+}

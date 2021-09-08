@@ -1,0 +1,321 @@
+
+/*------------------------------
+             RESPOSNIVE
+---------------------------------*/
+
+/* Extra small devices (phones, 575px and down) */
+
+@media (max-width: 575.98px) {
+    .contenido {
+        width: 100%;
+    }
+    .header__iconos {
+        justify-content: flex-start;
+        background-color: yellow
+    }
+    .header__iconos img {
+        width: 50%;
+        justify-content: center;
+    }
+    .topNav__li {
+        float: left;
+        font-size: 10px;
+        font-family: "open Sans";
+        text-transform: uppercase;
+    }
+    .eslogan__h2 {
+        animation-name: efecto;
+        animation-timing-function: ease-in;
+        animation-duration: 6s;
+        animation-iteration-count: 3;
+        animation-delay: 1s;
+        font-weight: 300;
+        font-size: 80%;
+    }
+    .header img {
+        width: 50%;
+    }
+    .main__h3 {
+        font-size: 0.6em;
+        font-family: "open Sans";
+        text-transform: uppercase;
+        padding-left: 3%;
+    }
+    .main__imagenes {
+        display: flex;
+        height: 15vh;
+    }
+    
+    .main__ilum {
+        width: 30%;
+        height: 10vh;
+    }
+    
+    .main__ilum::before {
+        content: " ";
+        width: 30%;
+        height: 10vh;
+    }
+    
+    .main__a {
+        font-size: 0.6em;
+    }
+    
+    .main__agrandar:hover {
+        transform: scale(1.3);
+    }
+    
+    .main__mant {
+        width: 30%;
+        height: 10vh;
+      
+    }
+    
+    .main__mant::before {
+        content: " ";
+        width: 30%;
+        height: 10vh;
+    
+    }
+    
+    .main__proy {
+        width: 30%;
+        height: 10vh;
+      
+    }
+    
+    .main__proy::before {
+        content: " ";
+        width: 30%;
+        height: 10vh;
+    }
+    .footer__div img {
+        width: 50%;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .garantias{
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aqua;
+        
+        &__img{
+            text-align: center;}
+    }
+}
+
+/*small devices (phones, between 577px and 768px) */
+
+@media (min-width:576px) and (max-width:768px) {
+    .header__iconos {
+        justify-content:flex-start;
+    }
+    .header__iconos img {
+        width: 80%;
+    }
+    .header  img{
+        width: 50%;
+    }
+    .topNav__li {
+        float: left;
+        font-size: 10px;
+        font-family: "open Sans";
+        text-transform: uppercase;
+    }
+    .eslogan__h2 {
+        animation-name: efecto;
+        animation-timing-function: ease-in;
+        animation-duration: 6s;
+        animation-iteration-count: 3;
+        animation-delay: 1s;
+        font-weight: 300;
+        font-size: 80%;
+    }
+    
+    .main__h3 {
+        font-size: 0.7em;
+        font-family: "open Sans";
+        text-transform: uppercase;
+        padding-left: 3%;
+    }
+    .main__imagenes {
+        display: flex;
+        height: 15vh;
+    }
+    
+    .main__ilum {
+        width: 30%;
+        height: 10vh;
+    }
+    
+    .main__ilum::before {
+        content: " ";
+        width: 23%;
+        height: 10vh;
+    }
+    
+    .main__a {
+        font-size: 0.7em;
+    }
+    
+    .main__agrandar:hover {
+        transform: scale(1.3);
+    }
+    
+    .main__mant {
+        width: 30%;
+        height: 10vh;
+      
+    }
+    
+    .main__mant::before {
+        content: " ";
+        width: 23%;
+        height: 10vh;
+    
+    }
+    
+    .main__proy {
+        width: 30%;
+        height: 10vh;
+      
+    }
+    
+    .main__proy::before {
+        content: " ";
+        width: 23%;
+        height: 10vh;
+    }
+    .footer__div img {
+        width: 80%;
+    }
+    h6{
+        font-size: 10px;
+    }
+}
+
+/*Medium devices (tablets, 769px and 992) */
+
+@media (min-width: 769px) and (max-width:992px) {
+    .header img {
+       text-align: start;
+    }
+    .topNav__li {
+        float: left;
+        font-size: 12px;
+        font-family: "open Sans";
+        text-transform: uppercase;
+    }
+    .main__h3 {
+        font-size: 0.9em;
+        font-family: "open Sans";
+        text-transform: uppercase;
+        padding-left: 3%;
+    }
+    .main__imagenes {
+        display: flex;
+        height: 20vh;
+    }
+    
+    .main__ilum {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .main__ilum::before {
+        content: " ";
+        width: 200px;
+        height: 150px;
+    }
+    
+    .main__a {
+        font-size: 0.8em;
+    }
+    
+    .main__agrandar:hover {
+        transform: scale(1.3);
+    }
+    
+    .main__mant {
+        width: 200px;
+        height: 150px;
+    }
+    
+    .main__mant::before {
+        content: " ";
+        width: 200px;
+        height: 150px;
+    
+    }
+    
+    .main__proy {
+        width: 200px;
+        height: 150px;
+      
+    }
+    
+    .main__proy::before {
+        content: " ";
+        width: 200px;
+        height: 150px;
+    }
+    h6{
+        font-size: 12px;
+    }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 993px) and (max-width:1200px){ 
+    .main__h3 {
+        font-size: 0.9em;
+        font-family: "open Sans";
+        text-transform: uppercase;
+        padding-left: 3%;
+    }
+    .main__imagenes {
+        display: flex;
+        height: 25vh;
+    }
+    
+    .main__ilum {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .main__ilum::before {
+        content: " ";
+        width: 250px;
+        height: 200px;
+    }
+    .main__a {
+        font-size: 1em;
+    }
+    
+    .main__agrandar:hover {
+        transform: scale(1.3);
+    }
+    
+    .main__mant {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .main__mant::before {
+        content: " ";
+        width: 250px;
+        height: 200px;
+    }
+    
+    .main__proy {
+        width: 250px;
+        height: 200px;
+    }
+    
+    .main__proy::before {
+        content: " ";
+        width: 250px;
+        height: 200px;
+    }
+}
