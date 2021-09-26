@@ -75,7 +75,17 @@
         background-image: linear-gradient(to right, aqua, grey);
         display: flex;
         height: 11vh;
-        justify-content: space-around;}
+        justify-content: space-around;
+        
+    }
+    .footer__h6 {
+        padding-right: 2%;
+        text-align   : center;
+        font-family  : sans-serif;
+        align-items     : center;
+        font-size: 12px;
+        
+    }
 
     h6 {
         font-size: 12px;
@@ -240,9 +250,18 @@ medium devices (desktops, tablets 769px and 993px)
         display        : flex;
         justify-content: end;
         align-items    : center;
+      
     }
     .footer__div img {
         width: 80%;
+    }
+    .footer__h6 {
+        padding-right: 2%;
+        text-align   : center;
+        font-family  : sans-serif;
+        align-items     : center;
+        font-size: 1.2em;
+        
     }
     h6 {
         font-size: 12px;
@@ -258,18 +277,19 @@ medium devices (desktops, tablets 769px and 993px)
         overflow       : hidden;
         padding        : 1% 0 0;
         font-weight    : 500;
-        padding        : 1% 2% 2%;
-        color          : #fff;
+        padding        : 1% 1% 1%;
+        color          : black;
         font-family    : sans-serif;
         text-decoration: none;
-        font-size:0.8em;
-        
+    
     
     }
     .texto {
         font-size:0.8em;
     }
-    
+    .somos {
+        height          : 30vh;
+    }
 }
 /*------------------------------------------------
 large devices (desktops,993px and up)
@@ -297,6 +317,14 @@ large devices (desktops,993px and up)
     }
     .footer__div img {
         width: 100%;
+    }
+    .footer__h6 {
+        padding-right: 2%;
+        text-align   : center;
+        font-family  : sans-serif;
+        align-items     : center;
+        font-size: 1.2em;
+        
     }
     .somos {
         height          : 30vh;

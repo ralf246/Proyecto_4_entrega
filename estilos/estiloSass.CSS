@@ -7820,7 +7820,7 @@ ol {
   list-style: none; }
 
 h2, .h2 {
-  font-family: 'PT Sans Caption', sans-serif; }
+  font-family: 'PT Sans Captigion', sans-serif; }
 
 .body {
   background-image: url("../assets/fondo-pagina.png");
@@ -8312,6 +8312,12 @@ ESTILOS FOOTER
     display: flex;
     height: 11vh;
     justify-content: space-around; }
+  .footer__h6 {
+    padding-right: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 12px; }
   h6, .h6 {
     font-size: 12px; }
   .garantias {
@@ -8436,6 +8442,12 @@ medium devices (desktops, tablets 769px and 993px)
     align-items: center; }
   .footer__div img {
     width: 80%; }
+  .footer__h6 {
+    padding-right: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 1.2em; }
   h6, .h6 {
     font-size: 12px; }
   .font {
@@ -8447,13 +8459,14 @@ medium devices (desktops, tablets 769px and 993px)
     overflow: hidden;
     padding: 1% 0 0;
     font-weight: 500;
-    padding: 1% 2% 2%;
-    color: #fff;
+    padding: 1% 1% 1%;
+    color: black;
     font-family: sans-serif;
-    text-decoration: none;
-    font-size: 0.8em; }
+    text-decoration: none; }
   .texto {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+  .somos {
+    height: 30vh; } }
 
 /*------------------------------------------------
 large devices (desktops,993px and up)
@@ -8476,6 +8489,12 @@ large devices (desktops,993px and up)
     align-items: center; }
   .footer__div img {
     width: 100%; }
+  .footer__h6 {
+    padding-right: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 1.2em; }
   .somos {
     height: 30vh;
     background-color: #cacaca; }
