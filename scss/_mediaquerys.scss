@@ -6,24 +6,27 @@
 
 @media (min-width: 280px) and (max-width: 575px) {
     .contenido {
-        width : 100%;
+        width: 100%;
     }
-    .container__1{
+
+    .container__1 {
         margin: 0;
     }
+
     .header a img {
         width: 50%;
     }
+
     .header__iconos {
         justify-content : flex-start;
-        text-align:center ;
+        text-align      : center;
         background-color: #00ffea;
     }
 
     .header__iconos img {
         width          : 60%;
         justify-content: center;
-        text-align:center ;
+        text-align     : center;
     }
 
     .topNav__li {
@@ -42,6 +45,7 @@
         font-weight              : 300;
         font-size                : 90%;
     }
+
     .main__h3 {
         font-size     : 0.8em;
         font-family   : "open Sans";
@@ -55,36 +59,40 @@
         padding-right: 15px;
         width        : 100%;
     }
+
     .main__a {
-        z-index: 1;
-        font-size: 16px;
-        color: white;
-        font-family: "open Sans";
+        z-index        : 1;
+        font-size      : 16px;
+        color          : white;
+        font-family    : "open Sans";
         text-decoration: none;
-        font-weight: bold;
+        font-weight    : bold;
     }
-    .casa{
+
+    .casa {
         text-align: center;
     }
 
     .footer__div img {
-        width: 50%;
+        width      : 50%;
         align-items: center;
     }
+
     .footer {
         background-image: linear-gradient(to right, aqua, grey);
-        display: flex;
-        height: 11vh;
-        justify-content: space-around;
-        
+        display         : flex;
+        height          : 11vh;
+        justify-content : space-around;
+
     }
+
     .footer__h6 {
         padding-right: 2%;
         text-align   : center;
         font-family  : sans-serif;
-        align-items     : center;
-        font-size: 12px;
-        
+        align-items  : center;
+        font-size    : 12px;
+
     }
 
     h6 {
@@ -102,12 +110,13 @@
             text-align: center;
         }
     }
+
     .main__certificaciones {
-        display: flex;
-        width: 100%;
+        display        : flex;
+        width          : 100%;
         justify-content: space-around;
-        padding:0px;
-        text-align: center;
+        padding        : 0px;
+        text-align     : center;
     }
 }
 
@@ -117,18 +126,19 @@ small devices (phones, 576px and 768px )
 ----------------------------------------------*/
 @media (max-width: 768px) and (min-width:576px) {
     .contenido {
-        width : 100%;
+        width: 100%;
     }
+
     .header__iconos {
         justify-content : flex-start;
-        text-align:center ;
+        text-align      : center;
         background-color: #00ffea;
     }
 
     .header__iconos img {
         width          : 60%;
         justify-content: center;
-        text-align:center ;
+        text-align     : center;
     }
 
     .topNav__li {
@@ -165,33 +175,47 @@ small devices (phones, 576px and 768px )
         padding-right: 15px;
         width        : 100%;
     }
+
     .main__a {
-        z-index: 1;
-        font-size: 16px;
-        color: white;
-        font-family: "open Sans";
+        z-index        : 1;
+        font-size      : 16px;
+        color          : white;
+        font-family    : "open Sans";
         text-decoration: none;
-        font-weight: bold;
+        font-weight    : bold;
     }
-    .casa{
+
+    .casa {
         text-align: center;
 
     }
+
     .footer__div {
         display        : flex;
         justify-content: end;
     }
 
     .footer__div img {
-        width: 60%;
+        width      : 60%;
         align-items: center;
     }
+
     .footer {
         background-image: linear-gradient(to right, aqua, grey);
-        display: flex;
-        height: 7vh;
-        justify-content: space-around;
-        align-items:center;}
+        display         : flex;
+        height          : 7vh;
+        justify-content : space-around;
+        align-items     : center;
+    }
+
+    .footer__h6 {
+        padding-right: 2%;
+        text-align   : center;
+        font-family  : sans-serif;
+        align-items  : center;
+        font-size    : 12px;
+
+    }
 
     h6 {
         font-size: 12px;
@@ -208,12 +232,13 @@ small devices (phones, 576px and 768px )
             text-align: center;
         }
     }
+
     .main__certificaciones {
-        display: flex;
-        width: 100%;
+        display        : flex;
+        width          : 100%;
         justify-content: space-around;
-        padding:0px;
-        text-align: center;
+        padding        : 0px;
+        text-align     : center;
     }
 }
 
@@ -222,57 +247,68 @@ medium devices (desktops, tablets 769px and 993px)
 --------------------------------------------------*/
 @media (min-width: 769px) and (max-width:993px) {
     .contenido {
-        width : 100%;
+        width: 100%;
     }
+
     .header__iconos img {
         width          : 80%;
         justify-content: center;
-        text-align:center ;
+        text-align     : center;
     }
+
     .header a img {
         width: 70%;
     }
+
     .main__h3 {
         font-size     : 0.8em;
         font-family   : "open Sans";
         text-transform: uppercase;
         padding-left  : 3%;
     }
+
     .main__a {
-        z-index: 1;
-        font-size: 16px;
-        color: white;
-        font-family: "open Sans";
+        z-index        : 1;
+        font-size      : 16px;
+        color          : white;
+        font-family    : "open Sans";
         text-decoration: none;
-        font-weight: bold;
+        font-weight    : bold;
     }
+
     .footer__div {
         display        : flex;
         justify-content: end;
         align-items    : center;
-      
+
     }
+
     .footer__div img {
         width: 80%;
     }
+
     .footer__h6 {
         padding-right: 2%;
         text-align   : center;
         font-family  : sans-serif;
-        align-items     : center;
-        font-size: 1.2em;
-        
+        align-items  : center;
+        font-size    : 1.2em;
+
     }
+
     h6 {
         font-size: 12px;
     }
+
     .font {
         font-size : 0.6em;
         text-align: center;
     }
-   .proy_h5{
-        font-size : 0.6em;
+
+    .proy_h5 {
+        font-size: 0.6em;
     }
+
     .texto__dir {
         overflow       : hidden;
         padding        : 1% 0 0;
@@ -281,28 +317,33 @@ medium devices (desktops, tablets 769px and 993px)
         color          : black;
         font-family    : sans-serif;
         text-decoration: none;
-    
-    
+
+
     }
+
     .texto {
-        font-size:0.8em;
+        font-size: 0.8em;
     }
+
     .somos {
-        height          : 30vh;
+        height: 30vh;
     }
 }
+
 /*------------------------------------------------
 large devices (desktops,993px and up)
 --------------------------------------------------*/
-@media (min-width: 994px){
+@media (min-width: 994px) {
     .header__iconos img {
         width          : 100%;
         justify-content: center;
-        text-align:center ;
+        text-align     : center;
     }
+
     .header a img {
         width: 60%;
     }
+
     .main__h3 {
         font-size     : 1.5em;
         font-family   : "open Sans";
@@ -315,21 +356,24 @@ large devices (desktops,993px and up)
         justify-content: end;
         align-items    : center;
     }
+
     .footer__div img {
         width: 100%;
     }
+
     .footer__h6 {
         padding-right: 2%;
         text-align   : center;
         font-family  : sans-serif;
-        align-items     : center;
-        font-size: 1.2em;
-        
+        align-items  : center;
+        font-size    : 1.2em;
+
     }
+
     .somos {
         height          : 30vh;
         background-color: #cacaca;
-    
+
         &__h2 {
             padding: 2% 2%;
         }
