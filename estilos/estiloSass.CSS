@@ -7815,7 +7815,8 @@ p {
   font-size: 16px;
   font-family: "open Sans"; }
 
-ul, ol {
+ul,
+ol {
   list-style: none; }
 
 h2, .h2 {
@@ -7836,15 +7837,172 @@ h2, .h2 {
   -webkit-box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
   -moz-box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83); }
 
+/*---------------------------- ESTILOS DEL MAIN HOME-----------------------------*/
+.main__certificado {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #00ffea;
+  height: 10vh;
+  align-items: center;
+  text-align: center; }
+
+.main__certificaciones {
+  width: 100%;
+  justify-content: center;
+  text-align: center; }
+
+.main__h3 {
+  font-size: 30px;
+  font-family: "open Sans";
+  text-transform: uppercase;
+  padding-left: 3%; }
+
+.main__img {
+  height: 42px;
+  padding-left: 1%; }
+
+.main__imagen {
+  width: 100%;
+  height: 25vh;
+  border-radius: 15px;
+  z-index: 1; }
+
+.main__padding {
+  padding: 3%; }
+
+.main__a {
+  font-size: 24px;
+  color: white;
+  font-family: "open Sans";
+  text-decoration: none;
+  font-weight: bold; }
+
+.main__reducir:hover {
+  transform: scale(0.9);
+  opacity: 0.5; }
+
+.par {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: black 0.1em 0.1em 0.2em; }
+
+/*-------------ESTILOS MAIN CONTACTO---------------------*/
 .somos {
   height: 20vh;
   background-color: #cacaca; }
   .somos__h2 {
     padding: 2% 2%; }
 
+.icon {
+  float: left;
+  font-size: 1.2em;
+  line-height: 18px;
+  color: #66a4af;
+  margin: 1% 0.5% 0 0;
+  display: inline-flex;
+  justify-content: start; }
+
+.texto__dir {
+  overflow: hidden;
+  padding: 1% 0 0;
+  font-weight: 500;
+  padding: 1% 1% 1%;
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none; }
+
+.columna {
+  padding-left: 0;
+  padding-right: 0; }
+  .columna__div {
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    height: 40vh; }
+  .columna__wrapper {
+    background: rgba(0, 3, 45, 0.9);
+    height: 40vh; }
+  .columna__contacto {
+    font-family: "Open Sans";
+    margin: 10px 0 23px;
+    padding: 2%;
+    height: 25vh;
+    display: flex;
+    align-items: center; }
+  .columna__h4 {
+    color: #fff;
+    padding: 3%; }
+  .columna__contenido {
+    display: inline-block; }
+
+.columna__img {
+  background-image: url("../assets/instalaciones_electricas-768x512.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.icon {
+  font-size: 20px;
+  line-height: 18px;
+  color: #66a4af;
+  margin: 0 15px 0 0; }
+
+.ubicacion {
+  text-align: center;
+  margin: 1%; }
+
+.margen {
+  margin: 1%;
+  width: 80%;
+  height: 25vh; }
+
+.inputGrup {
+  margin: 0 0 30px;
+  width: 100%; }
+
+.form-wb {
+  font-size: 13px;
+  line-height: 18px;
+  color: #222;
+  background: #cacaca;
+  border: none;
+  box-shadow: none;
+  outline: 0;
+  padding: 16px 30px 15px;
+  border-radius: 0;
+  transition: all .3s ease;
+  box-sizing: border-box !important;
+  width: 100%;
+  display: block;
+  height: 49px; }
+
+.span {
+  position: relative; }
+
+.boton {
+  position: relative;
+  font-family: Cairo, sans-serif;
+  font-size: 14px;
+  padding: 8px 21px;
+  color: #fff;
+  background: #000;
+  border: 3px solid #000;
+  display: inline-block;
+  line-height: 20%;
+  transition: all .3s ease; }
+
 .articulo {
   padding: 5%;
-  text-align: justify; }
+  text-align: justify;
+  font-size: 20px; }
 
 .video {
   position: relative;
@@ -7873,6 +8031,22 @@ h2, .h2 {
   .garantias__img {
     text-align: center; }
 
+/*-----------ESTILOS MAIN PROYECTOS-----------*/
+.a:hover ul {
+  display: flex;
+  display: block;
+  text-align: justify;
+  color: white;
+  padding: 0; }
+
+.a:hover h5, .a:hover .h5 {
+  display: none; }
+
+.font {
+  font-size: 0.8em;
+  text-align: center;
+  font-family: sans-serif; }
+
 .section-1 {
   background-image: url("../assets/maigas.jpg");
   background-repeat: no-repeat;
@@ -7881,24 +8055,11 @@ h2, .h2 {
   text-align: center;
   color: white;
   font-size: 20px;
-  height: 30vh; }
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em; }
 
 .section-1 ul {
   display: none; }
-
-.a:hover ul {
-  display: flex;
-  display: block;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: white;
-  margin-top: 50px;
-  background-color: teal; }
-
-.font {
-  font-size: 0.5em;
-  text-align: center; }
 
 .section-2 {
   grid-area: item-2;
@@ -7908,8 +8069,9 @@ h2, .h2 {
   border-radius: 10px;
   text-align: center;
   color: white;
-  font-size: 18px;
-  height: 30vh; }
+  font-size: 20px;
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em; }
 
 .section-2 ul {
   display: none; }
@@ -7923,7 +8085,8 @@ h2, .h2 {
   text-align: center;
   color: white;
   font-size: 20px;
-  height: 30vh; }
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em; }
 
 .section-3 ul {
   display: none; }
@@ -7937,7 +8100,14 @@ h2, .h2 {
   border-radius: 10px;
   color: white;
   font-size: 20px;
-  height: 30vh; }
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  width: 100%; }
+
+.section__center {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .section-4 ul {
   display: none; }
@@ -7951,7 +8121,8 @@ h2, .h2 {
   border-radius: 10px;
   color: white;
   font-size: 20px;
-  height: 30vh; }
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em; }
 
 .section-5 ul {
   display: none; }
@@ -7965,7 +8136,8 @@ h2, .h2 {
   border-radius: 10px;
   color: white;
   font-size: 20px;
-  height: 30vh; }
+  height: 30vh;
+  text-shadow: black 0.1em 0.1em 0.1em; }
 
 .section-6 ul {
   display: none; }
@@ -7996,57 +8168,6 @@ h2, .h2 {
   transform: translate(-50%, -50%);
   z-index: 1; }
 
-.mensaje {
-  margin-left: -15px;
-  margin-right: -15px; }
-
-.ubicacion {
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-
-.margen {
-  margin: 15%; }
-
-.inputGrup {
-  margin: 0 0 30px;
-  width: 100%; }
-
-.span {
-  position: relative; }
-
-.span input {
-  background: #cacaca;
-  border: none;
-  box-shadow: none;
-  outline: 0;
-  padding: 16px 30px 15px;
-  transition: all .3s ease;
-  box-sizing: border-box !important;
-  width: 30%;
-  display: block;
-  height: 3vh; }
-
-.span textarea {
-  background: #cacaca;
-  border: none;
-  display: block;
-  height: 49px;
-  padding: 16px 30px 15px;
-  box-shadow: none; }
-
-#boton input {
-  position: relative;
-  font-family: Cairo, sans-serif;
-  font-size: 14px;
-  padding: 8px 21px;
-  color: #fff;
-  background: #000;
-  border: 3px solid #000;
-  display: inline-block;
-  line-height: 20%;
-  transition: all .3s ease; }
-
 @keyframes efecto {
   0% {
     border-radius: 50%; }
@@ -8060,116 +8181,6 @@ h2, .h2 {
   100% {
     border-radius: 50%;
     transform: scale(1); } }
-
-.main__certificado {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  background-color: #00ffea;
-  height: 10vh;
-  align-items: center; }
-
-.main__h3 {
-  font-size: 30px;
-  font-family: "open Sans";
-  text-transform: uppercase;
-  padding-left: 3%; }
-
-.main__img {
-  height: 42px;
-  padding-left: 7%; }
-
-.main__certificaciones {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  padding: 2%; }
-
-.main__imagenes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 40vh;
-  width: 100%; }
-
-.main__ilum {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 300px;
-  background-image: url("../assets/iluminacion.jpeg");
-  background-size: cover;
-  border-radius: 15px; }
-
-.main__ilum::before {
-  content: " ";
-  width: 350px;
-  height: 300px;
-  background-color: aqua;
-  position: absolute;
-  opacity: 0.6;
-  border-radius: 15px; }
-
-.main__a {
-  z-index: 1;
-  font-size: 20px;
-  color: black;
-  font-family: "open Sans";
-  text-decoration: none;
-  font-weight: bold; }
-
-.main__agrandar:hover {
-  transform: scale(1.2); }
-
-.main__mant {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 300px;
-  background-image: url("../assets/mantenimiento.jpg");
-  background-size: cover;
-  border-radius: 15px; }
-
-.main__mant::before {
-  content: " ";
-  width: 350px;
-  height: 300px;
-  background-color: aqua;
-  position: absolute;
-  opacity: 0.6;
-  border-radius: 15px; }
-
-.main__proy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 300px;
-  background-image: url("../assets/proyectos.jpg");
-  background-size: cover;
-  border-radius: 15px; }
-
-.main__proy::before {
-  content: " ";
-  width: 350px;
-  height: 300px;
-  background-color: aqua;
-  position: absolute;
-  opacity: 0.6;
-  border-radius: 15px; }
-
-.main__areaproyecto {
-  padding: 40px 0 40px 20px;
-  display: flex;
-  justify-content: space-around; }
-
-.main__proyecto {
-  width: 210PX;
-  font-family: "open Sans";
-  text-transform: uppercase;
-  text-align: center; }
 
 /*---------------------------- ESTILOS HEADER------------------------------*/
 .header img {
@@ -8222,29 +8233,48 @@ ESTILOS FOOTER
 .footer {
   background-image: linear-gradient(to right, aqua, grey);
   align-items: center;
-  height: 7vh; }
+  height: 7vh;
+  justify-content: space-between; }
 
 .footer__div {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center; }
+
+.footer__h6 {
+  padding-right: 2%;
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+  font-size: 1.2em; }
+
+.footer__h6 a {
+  text-decoration: none;
+  font-style: none;
+  color: black; }
 
 /*------------------------------
              RESPOSNIVE
 ---------------------------------*/
-/* Extra small devices (phones, 575px and down) */
-@media (max-width: 575.98px) {
+/* Extra small  devices (phones, 575px and down) */
+@media (min-width: 280px) and (max-width: 575px) {
   .contenido {
     width: 100%; }
+  .container__1 {
+    margin: 0; }
+  .header a img {
+    width: 50%; }
   .header__iconos {
     justify-content: flex-start;
-    background-color: yellow; }
+    text-align: center;
+    background-color: #00ffea; }
   .header__iconos img {
-    width: 50%;
-    justify-content: center; }
+    width: 60%;
+    justify-content: center;
+    text-align: center; }
   .topNav__li {
     float: left;
-    font-size: 10px;
+    font-size: 12px;
     font-family: "open Sans";
     text-transform: uppercase; }
   .eslogan__h2 {
@@ -8254,46 +8284,36 @@ ESTILOS FOOTER
     animation-iteration-count: 3;
     animation-delay: 1s;
     font-weight: 300;
-    font-size: 80%; }
-  .header img {
-    width: 50%; }
+    font-size: 90%; }
   .main__h3 {
-    font-size: 0.6em;
+    font-size: 0.8em;
     font-family: "open Sans";
     text-transform: uppercase;
     padding-left: 3%; }
   .main__imagenes {
-    display: flex;
-    height: 15vh; }
-  .main__ilum {
-    width: 30%;
-    height: 10vh; }
-  .main__ilum::before {
-    content: " ";
-    width: 30%;
-    height: 10vh; }
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%; }
   .main__a {
-    font-size: 0.6em; }
-  .main__agrandar:hover {
-    transform: scale(1.3); }
-  .main__mant {
-    width: 30%;
-    height: 10vh; }
-  .main__mant::before {
-    content: " ";
-    width: 30%;
-    height: 10vh; }
-  .main__proy {
-    width: 30%;
-    height: 10vh; }
-  .main__proy::before {
-    content: " ";
-    width: 30%;
-    height: 10vh; }
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+    font-family: "open Sans";
+    text-decoration: none;
+    font-weight: bold; }
+  .casa {
+    text-align: center; }
   .footer__div img {
-    width: 50%; }
+    width: 50%;
+    align-items: center; }
+  .footer {
+    background-image: linear-gradient(to right, aqua, grey);
+    display: flex;
+    height: 11vh;
+    justify-content: space-around; }
   h6, .h6 {
-    font-size: 10px; }
+    font-size: 12px; }
   .garantias {
     padding: 2%;
     display: flex;
@@ -8301,19 +8321,31 @@ ESTILOS FOOTER
     align-items: center;
     background-color: aqua; }
     .garantias__img {
-      text-align: center; } }
+      text-align: center; }
+  .main__certificaciones {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px;
+    text-align: center; } }
 
-/*small devices (phones, between 577px and 768px) */
-@media (min-width: 576px) and (max-width: 768px) {
+/* -------------------------------------------
+small devices (phones, 576px and 768px ) 
+----------------------------------------------*/
+@media (max-width: 768px) and (min-width: 576px) {
+  .contenido {
+    width: 100%; }
   .header__iconos {
-    justify-content: flex-start; }
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #00ffea; }
   .header__iconos img {
-    width: 80%; }
-  .header img {
-    width: 50%; }
+    width: 60%;
+    justify-content: center;
+    text-align: center; }
   .topNav__li {
     float: left;
-    font-size: 10px;
+    font-size: 12px;
     font-family: "open Sans";
     text-transform: uppercase; }
   .eslogan__h2 {
@@ -8323,122 +8355,129 @@ ESTILOS FOOTER
     animation-iteration-count: 3;
     animation-delay: 1s;
     font-weight: 300;
-    font-size: 80%; }
+    font-size: 90%; }
+  .header a img {
+    width: 60%; }
   .main__h3 {
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: "open Sans";
     text-transform: uppercase;
     padding-left: 3%; }
   .main__imagenes {
-    display: flex;
-    height: 15vh; }
-  .main__ilum {
-    width: 30%;
-    height: 10vh; }
-  .main__ilum::before {
-    content: " ";
-    width: 23%;
-    height: 10vh; }
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%; }
   .main__a {
-    font-size: 0.7em; }
-  .main__agrandar:hover {
-    transform: scale(1.3); }
-  .main__mant {
-    width: 30%;
-    height: 10vh; }
-  .main__mant::before {
-    content: " ";
-    width: 23%;
-    height: 10vh; }
-  .main__proy {
-    width: 30%;
-    height: 10vh; }
-  .main__proy::before {
-    content: " ";
-    width: 23%;
-    height: 10vh; }
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+    font-family: "open Sans";
+    text-decoration: none;
+    font-weight: bold; }
+  .casa {
+    text-align: center; }
+  .footer__div {
+    display: flex;
+    justify-content: end; }
+  .footer__div img {
+    width: 60%;
+    align-items: center; }
+  .footer {
+    background-image: linear-gradient(to right, aqua, grey);
+    display: flex;
+    height: 7vh;
+    justify-content: space-around;
+    align-items: center; }
+  h6, .h6 {
+    font-size: 12px; }
+  .garantias {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua; }
+    .garantias__img {
+      text-align: center; }
+  .main__certificaciones {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0px;
+    text-align: center; } }
+
+/*------------------------------------------------
+medium devices (desktops, tablets 769px and 993px)
+--------------------------------------------------*/
+@media (min-width: 769px) and (max-width: 993px) {
+  .contenido {
+    width: 100%; }
+  .header__iconos img {
+    width: 80%;
+    justify-content: center;
+    text-align: center; }
+  .header a img {
+    width: 70%; }
+  .main__h3 {
+    font-size: 0.8em;
+    font-family: "open Sans";
+    text-transform: uppercase;
+    padding-left: 3%; }
+  .main__a {
+    z-index: 1;
+    font-size: 16px;
+    color: white;
+    font-family: "open Sans";
+    text-decoration: none;
+    font-weight: bold; }
+  .footer__div {
+    display: flex;
+    justify-content: end;
+    align-items: center; }
   .footer__div img {
     width: 80%; }
   h6, .h6 {
-    font-size: 10px; } }
-
-/*Medium devices (tablets, 769px and 992) */
-@media (min-width: 769px) and (max-width: 992px) {
-  .header img {
-    text-align: start; }
-  .topNav__li {
-    float: left;
-    font-size: 12px;
-    font-family: "open Sans";
-    text-transform: uppercase; }
-  .main__h3 {
-    font-size: 0.9em;
-    font-family: "open Sans";
-    text-transform: uppercase;
-    padding-left: 3%; }
-  .main__imagenes {
-    display: flex;
-    height: 20vh; }
-  .main__ilum {
-    width: 200px;
-    height: 150px; }
-  .main__ilum::before {
-    content: " ";
-    width: 200px;
-    height: 150px; }
-  .main__a {
+    font-size: 12px; }
+  .font {
+    font-size: 0.6em;
+    text-align: center; }
+  .proy_h5 {
+    font-size: 0.6em; }
+  .texto__dir {
+    overflow: hidden;
+    padding: 1% 0 0;
+    font-weight: 500;
+    padding: 1% 2% 2%;
+    color: #fff;
+    font-family: sans-serif;
+    text-decoration: none;
     font-size: 0.8em; }
-  .main__agrandar:hover {
-    transform: scale(1.3); }
-  .main__mant {
-    width: 200px;
-    height: 150px; }
-  .main__mant::before {
-    content: " ";
-    width: 200px;
-    height: 150px; }
-  .main__proy {
-    width: 200px;
-    height: 150px; }
-  .main__proy::before {
-    content: " ";
-    width: 200px;
-    height: 150px; }
-  h6, .h6 {
-    font-size: 12px; } }
+  .texto {
+    font-size: 0.8em; } }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 993px) and (max-width: 1200px) {
+/*------------------------------------------------
+large devices (desktops,993px and up)
+--------------------------------------------------*/
+@media (min-width: 994px) {
+  .header__iconos img {
+    width: 100%;
+    justify-content: center;
+    text-align: center; }
+  .header a img {
+    width: 60%; }
   .main__h3 {
-    font-size: 0.9em;
+    font-size: 1.5em;
     font-family: "open Sans";
     text-transform: uppercase;
     padding-left: 3%; }
-  .main__imagenes {
+  .footer__div {
     display: flex;
-    height: 25vh; }
-  .main__ilum {
-    width: 250px;
-    height: 200px; }
-  .main__ilum::before {
-    content: " ";
-    width: 250px;
-    height: 200px; }
-  .main__a {
-    font-size: 1em; }
-  .main__agrandar:hover {
-    transform: scale(1.3); }
-  .main__mant {
-    width: 250px;
-    height: 200px; }
-  .main__mant::before {
-    content: " ";
-    width: 250px;
-    height: 200px; }
-  .main__proy {
-    width: 250px;
-    height: 200px; }
-  .main__proy::before {
-    content: " ";
-    width: 250px;
-    height: 200px; } }
+    justify-content: end;
+    align-items: center; }
+  .footer__div img {
+    width: 100%; }
+  .somos {
+    height: 30vh;
+    background-color: #cacaca; }
+    .somos__h2 {
+      padding: 2% 2%; } }

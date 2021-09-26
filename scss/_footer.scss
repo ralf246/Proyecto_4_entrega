@@ -2,13 +2,30 @@
 ESTILOS FOOTER
 ------------------------------*/
 .footer {
+    
     background-image: linear-gradient(to right, aqua, grey);
-    align-items: center;
-    height: 7vh;
-   
- }
- .footer__div{
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
- }
+    align-items     : center;
+    height          : 7vh;
+    justify-content : space-between;
+
+}
+
+.footer__div {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.footer__h6 {
+    padding-right: 2%;
+    text-align   : center;
+    font-family  : sans-serif;
+    align-items     : center;
+    font-size: 1.2em;
+    
+}
+.footer__h6 a{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+}

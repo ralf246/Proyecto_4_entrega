@@ -1,93 +1,332 @@
 /*---------------------------- ESTILOS GENERALES-----------------------------*/
-* {
-    margin: 0;
+*{
+    margin : 0;
     padding: 0;
 }
 
 p {
-    color: black;
-    font-size: 16px;
+    color      : black;
+    font-size  : 16px;
     font-family: "open Sans";
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
-h2{
+
+h2 {
     font-family: 'PT Sans Caption', sans-serif;
 }
 
 .body {
-    background-image: url("../assets/fondo-pagina.png");
-    background-size: cover;
+    background-image : url("../assets/fondo-pagina.png");
+    background-size  : cover;
     background-repeat: no-repeat;
-    width:100%;}
-
-    .contenido {
-        width: 80%;
-        height: 100%;
-        margin: 39px auto 0;
-        background: #fff;
-        box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
-        -webkit-box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
-        -moz-box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
-    }
-.somos {
-        height: 20vh;
-        background-color: #cacaca;
-
-        &__h2{
-            padding: 2% 2%;
-        }
-     }
-     
-
-.articulo{
-    padding: 5%;
-    text-align: justify;
+    width            : 100%;
 }
-.video{
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
 
-    &__iframe{
-        text-align: center;
-        border-radius: 15px;
-        position: absolute;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    
+.contenido {
+    width             : 80%;
+    height            : 100%;
+    margin            : 39px auto 0;
+    background        : #fff;
+    box-shadow        : 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
+    -webkit-box-shadow: 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
+    -moz-box-shadow   : 0px 1px 11px 5px rgba(0, 0, 0, 0.83);
 }
-.elegir{
-    padding: 2%;
+
+
+/*---------------------------- ESTILOS DEL MAIN HOME-----------------------------*/
+.main__certificado {
+    display         : flex;
+    width           : 100%;
+    flex-direction  : row;
+    background-color: #00ffea;
+    height          : 10vh;
+    align-items     : center;
+    text-align      : center;
+}
+
+.main__certificaciones {
+    width          : 100%;
+    justify-content: center;
+    text-align     : center;
+}
+
+.main__h3 {
+    font-size     : 30px;
+    font-family   : "open Sans";
+    text-transform: uppercase;
+    padding-left  : 3%;
+}
+
+.main__img {
+    height      : 42px;
+    padding-left: 1%;
+}
+
+.main__imagen {
+    width        : 100%;
+    height       : 25vh;
+    border-radius: 15px;
+    z-index      : 1;
+
+}
+
+.main__padding {
+    padding: 3%;
+}
+
+.main__a {
+    font-size      : 24px;
+    color          : white;
+    font-family    : "open Sans";
+    text-decoration: none;
+    font-weight    : bold;
+}
+
+.main__reducir:hover {
+    transform: scale(0.9);
+
+    opacity: 0.5;
+
+}
+
+.par {
+    position  : relative;
+    display   : inline-block;
     text-align: center;
-    height: 10vh;
+}
+
+.centrado {
+    position   : absolute;
+    top        : 50%;
+    left       : 50%;
+    transform  : translate(-50%, -50%);
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+/*-------------ESTILOS MAIN CONTACTO---------------------*/
+.somos {
+    height          : 20vh;
+    background-color: #cacaca;
+
+    &__h2 {
+        padding: 2% 2%;
+    }
+}
+
+.icon {
+    float      : left;
+    font-size  : 1.2em;
+    line-height: 18px;
+    color      : #66a4af;
+    margin     : 1% 0.5% 0 0;
+    display:inline-flex;
+    justify-content: start;
     
 }
-.garantias{
-    padding: 2%;
-    display: flex;
-    justify-content: space-between;
+
+.texto__dir {
+    overflow       : hidden;
+    padding        : 1% 0 0;
+    font-weight    : 500;
+    padding        : 1% 1% 1%;
+    color          : black;
+    font-family    : sans-serif;
+    text-decoration: none;
+
+
+}
+
+.columna {
+    padding-left : 0;
+    padding-right: 0;
+
+    &__div {
+        box-sizing   : border-box;
+        padding-left : 2%;
+        padding-right: 2%;
+        width        : 100%;
+        height: 40vh;
+    }
+
+    &__wrapper {
+        background: rgba(0, 3, 45, .9);
+        height: 40vh;
+
+    }
+
+    &__contacto {
+
+        font-family: "Open Sans";
+        margin     : 10px 0 23px;
+        padding    : 2%;
+        height     : 25vh;
+        display    : flex;
+        align-items: center;
+
+    }
+
+    &__h4 {
+        color  : #fff;
+        padding: 3%;
+        
+
+
+
+    }
+
+    &__contenido {
+        display: inline-block;
+
+    }
+}
+.columna__img{
+    background-image: url("../assets/instalaciones_electricas-768x512.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon {
+
+    font-size  : 20px;
+    line-height: 18px;
+    color      : #66a4af;
+    margin     : 0 15px 0 0;
+
+}
+
+.ubicacion {
+    text-align: center;
+    margin    : 1%;
+
+}
+
+.margen {
+    margin: 1%;
+    width : 80%;
+    height: 25vh;
+
+}
+
+.inputGrup {
+    margin: 0 0 30px;
+    width : 100%;
+}
+
+.form-wb {
+    font-size    : 13px;
+    line-height  : 18px;
+    color        : #222;
+    background   : #cacaca;
+    border       : none;
+    box-shadow   : none;
+    outline      : 0;
+    padding      : 16px 30px 15px;
+    border-radius: 0;
+    transition   : all .3s ease;
+    box-sizing   : border-box !important;
+    width        : 100%;
+    display      : block;
+    height       : 49px;
+}
+
+
+
+.span {
+    position: relative;
+}
+
+.boton {
+    position   : relative;
+    font-family: Cairo, sans-serif;
+    font-size  : 14px;
+    padding    : 8px 21px;
+    color      : #fff;
+    background : #000;
+    border     : 3px solid #000;
+    display    : inline-block;
+    line-height: 20%;
+    transition : all .3s ease;
+}
+
+
+.articulo {
+    padding   : 5%;
+    text-align: justify;
+    font-size : 20px;
+}
+
+.video {
+    position      : relative;
+    padding-bottom: 56.25%;
+    height        : 0;
+    overflow      : hidden;
+
+    &__iframe {
+        text-align   : center;
+        border-radius: 15px;
+        position     : absolute;
+        top          : 0;
+        left         : 0;
+        width        : 100%;
+        height       : 100%;
+    }
+
+}
+
+.elegir {
+    padding   : 2%;
+    text-align: center;
+    height    : 10vh;
+
+}
+
+.garantias {
+    padding         : 2%;
+    display         : flex;
+    justify-content : space-between;
     background-color: aqua;
 
-    &__img{
-        text-align: center;}
+    &__img {
+        text-align: center;
+    }
+}
+
+/*-----------ESTILOS MAIN PROYECTOS-----------*/
+.a:hover ul {
+    display   : flex;
+    display   : block;
+    text-align: justify;
+    color     : white;
+    padding   : 0;
+}
+
+.a:hover h5 {
+    display: none;
+
+}
+
+.font {
+    font-size  : 0.8em;
+    text-align : center;
+    font-family: sans-serif;
+
 }
 
 .section-1 {
-    background-image: url("../assets/maigas.jpg");
+    background-image : url("../assets/maigas.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    height: 30vh;
+    background-size  : cover;
+    border-radius    : 10px;
+    text-align       : center;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
 
 }
 
@@ -95,32 +334,21 @@ h2{
     display: none;
 }
 
-.a:hover ul {
-    display: flex;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: white;
-    margin-top: 50px;
-    background-color: teal;
-}
-.font{
-    font-size: 0.5em;
-    text-align: center;
-}
+
 
 
 .section-2 {
-    grid-area: item-2;
-    background-image: url("../assets/peñalolen.jpg");
+    grid-area        : item-2;
+    background-image : url("../assets/peñalolen.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    height: 30vh;
+    background-size  : cover;
+    border-radius    : 10px;
+    text-align       : center;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
+
 }
 
 .section-2 ul {
@@ -128,15 +356,17 @@ h2{
 }
 
 .section-3 {
-    grid-area: item-3;
-    background-image: url("../assets/Hotel-Pettra-Lo-Barmechea.jpg");
+    grid-area        : item-3;
+    background-image : url("../assets/Hotel-Pettra-Lo-Barmechea.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    height: 30vh;
+    background-size  : cover;
+    border-radius    : 10px;
+    text-align       : center;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
+
 }
 
 .section-3 ul {
@@ -144,15 +374,24 @@ h2{
 }
 
 .section-4 {
-    grid-area: item-4;
-    background-image: url("../assets/corrupac.jpg");
+    grid-area        : item-4;
+    background-image : url("../assets/corrupac.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
-    height: 30vh;
+    background-size  : cover;
+    text-align       : center;
+    border-radius    : 10px;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
+    width            : 100%;
+
+}
+
+.section__center {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
 }
 
 .section-4 ul {
@@ -160,15 +399,17 @@ h2{
 }
 
 .section-5 {
-    grid-area: item-5;
-    background-image: url("../assets/Fruna.jpg");
+    grid-area        : item-5;
+    background-image : url("../assets/Fruna.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
-    height: 30vh;
+    background-size  : cover;
+    text-align       : center;
+    border-radius    : 10px;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
+
 }
 
 .section-5 ul {
@@ -176,15 +417,17 @@ h2{
 }
 
 .section-6 {
-    grid-area: item-6;
-    background-image: url("../assets/andexport.jpg");
+    grid-area        : item-6;
+    background-image : url("../assets/andexport.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    border-radius: 10px;
-    color: white;
-    font-size: 20px;
-    height: 30vh;
+    background-size  : cover;
+    text-align       : center;
+    border-radius    : 10px;
+    color            : white;
+    font-size        : 20px;
+    height           : 30vh;
+    text-shadow      : black 0.1em 0.1em 0.1em;
+
 }
 
 .section-6 ul {
@@ -192,237 +435,55 @@ h2{
 }
 
 .eslogan {
-    position: sticky;
-    text-align: center;
+    position       : sticky;
+    text-align     : center;
     justify-content: center;
-    align-items: center;
-    display: block;
+    align-items    : center;
+    display        : block;
 }
 
 .eslogan__h2 {
-    animation-name: efecto;
+    animation-name           : efecto;
     animation-timing-function: ease-in;
-    animation-duration: 6s;
+    animation-duration       : 6s;
     animation-iteration-count: 3;
-    animation-delay: 1s;
-    font-weight: 700;
+    animation-delay          : 1s;
+    font-weight              : 700;
 }
 
 .eslogan__textoCentrado {
-    position: absolute;
-    color: white;
+    position   : absolute;
+    color      : white;
     text-shadow: black 0.1em 0.1em 0.2em;
     font-family: "open Sans";
     font-weight: 700;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-.mensaje {
-    margin-left: -15px;
-    margin-right: -15px;
+    top        : 50%;
+    left       : 50%;
+    transform  : translate(-50%, -50%);
+    z-index    : 1;
 }
 
-.ubicacion{
-    display:flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.margen {
-    margin: 15%;
-}
-
-.inputGrup {
-    margin: 0 0 30px;
-    width: 100%;
-}
-
-.span {
-    position: relative;
-}
-
-.span input {
-    background: #cacaca;
-    border: none;
-    box-shadow: none;
-    outline: 0;
-    padding: 16px 30px 15px;
-    transition: all .3s ease;
-    box-sizing: border-box!important;
-    width: 30%;
-    display: block;
-    height: 3vh;
-}
-
-.span textarea {
-    background: #cacaca;
-    border: none;
-    display: block;
-    height: 49px;
-    padding: 16px 30px 15px;
-    box-shadow: none;
-}
-
-#boton input {
-    position: relative;
-    font-family: Cairo, sans-serif;
-    font-size: 14px;
-    padding: 8px 21px;
-    color: #fff;
-    background: #000;
-    border: 3px solid #000;
-    display: inline-block;
-    line-height: 20%;
-    transition: all .3s ease;
-}
 
 @keyframes efecto {
     0% {
         border-radius: 50%;
     }
+
     25% {
         box-shadow: 0px 0px 15px 15px #ec731e;
-        transform: scale(1.3);
+        transform : scale(1.3);
     }
+
     50% {
         transform: skew(10deg, 10deg);
     }
+
     75% {
         transform: skew(-10deg, -10deg);
     }
+
     100% {
         border-radius: 50%;
-        transform: scale(1);
+        transform    : scale(1);
     }
 }
-
-.main__certificado {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    background-color: #00ffea;
-    height: 10vh;
-    align-items: center;
-}
-
-.main__h3 {
-    font-size: 30px;
-    font-family: "open Sans";
-    text-transform: uppercase;
-    padding-left: 3%;
-}
-
-.main__img {
-    height: 42px;
-    padding-left: 7%;
-}
-
-.main__certificaciones {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    padding: 2%;
-}
-
-.main__imagenes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 40vh;
-    width: 100%;
-}
-
-.main__ilum {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 300px;
-    background-image: url("../assets/iluminacion.jpeg");
-    background-size: cover;
-    border-radius: 15px;
-   
-}
-
-.main__ilum::before {
-    content: " ";
-    width: 350px;
-    height: 300px;
-    background-color: aqua;
-    position: absolute;
-    opacity: 0.6;
-    border-radius: 15px;
-}
-
-.main__a {
-    z-index: 1;
-    font-size: 20px;
-    color: black;
-    font-family: "open Sans";
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.main__agrandar:hover {
-    transform: scale(1.2);
-}
-
-.main__mant {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 300px;
-    background-image: url("../assets/mantenimiento.jpg");
-    background-size: cover;
-    border-radius: 15px;
-    
-}
-
-.main__mant::before {
-    content: " ";
-    width: 350px;
-    height: 300px;
-    background-color: aqua;
-    position: absolute;
-    opacity: 0.6;
-    border-radius: 15px;
-}
-
-.main__proy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 300px;
-    background-image: url("../assets/proyectos.jpg");
-    background-size: cover;
-    border-radius: 15px;
-    
-}
-
-.main__proy::before {
-    content: " ";
-    width: 350px;
-    height: 300px;
-    background-color: aqua;
-    position: absolute;
-    opacity: 0.6;
-    border-radius: 15px;
-}
-
-.main__areaproyecto {
-    padding: 40px 0 40px 20px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.main__proyecto {
-    width: 210PX;
-    font-family: "open Sans";
-    text-transform: uppercase;
-    text-align: center;
-}
-

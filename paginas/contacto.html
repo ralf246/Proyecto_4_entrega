@@ -15,12 +15,12 @@
 </head>
 
 <body class="body">
-    <div class="container contenido">
+    <div class="container contenido container__1">
         <header class="row ">
             <div class="col-md-6 col-sm-12 header text-center text-md-start p-0">
                 <a href="../index.html"><img src="../assets/LogoMakr-0hewu4.png" alt="logo"></a>
             </div>
-            <div class="col-md-6 col-sm-12 text-sm-start header__iconos">
+            <div class="col-md-6 col-sm-12 text-sm-start header__iconos p-0">
                 <div><a href="https://es-la.facebook.com/"><img src="../assets/Facebook.png" alt="facebook"></div></a>
                 <div><a href="https://www.instagram.com/?hl=es"><img src="../assets/Instagram.png" alt="instagram"></a>
                 </div>
@@ -64,75 +64,92 @@
                 </div>
             </nav>
         </div>
-        <div class="row">
-            <div class="col-sm-12 somos p-0">
-                <h2 class="somos__h2">CONTACTANOS</h2>
+        <!-------MAIN-------->
+        <section class="row">
+            <div class=" columna col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="col-sm-12 p-0 somos">
+                    <h2 class="somos__h2">PROYECTOS</h2>
+                    <ul>
+                        <li>
+                            <div class="icon"><i><img src="../assets/posicion.ico" width="22px" alt="posicion"></i></div>
+                            <div class="texto__dir">Calle buena 1234,Región Metropolitana</div>
+                        </li>
+                        <li>
+                            <div class="icon"><i class="fa"><img src="../assets/llamado.ico" width="22px alt=" telefono"></i></div>
+                            <div class="texto__dir">+56 123456987 </div>
+                        </li>
+                        <li>
+                            <div class="icon"><i><img src="../assets/mensaje.ico" width="22px" alt="email"></i></div>
+                            <div class="texto__dir"><a href="" class="texto">contacto@ingelectric.cl </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
             </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 ubicacion">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44807.098400373725!2d-70.70802534710782!3d-33.4152262652018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa067731aedbd02b4!2sMcDonald&#39;s!5e0!3m2!1ses!2scl!4v1626835771043!5m2!1ses!2scl"
-                    width="50%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-        <!--datos del formulario-->
-        <div class="row">
-            <div class="col-sm-6">
-                <form action="" class="margen">
-                    <section id="forma">
-                        <div class="inputGrup">
-                            <span class="span">
-                                <input type="text" name="Nombre_o_razon_social" value size="40" placeholder="Nombre">
-                            </span>
-                        </div>
-                        <div class="inputGrup">
-                            <span class="span">
-                                <input type="email" name="correo" placeholder="E-mail">
-                            </span>
-                        </div>
-                        <div class="inputGrup">
-                            <span class="span">
-                                <input type="text" name="Telefono" placeholder="Telefono">
-                            </span>
-                        </div>
-                    </section>
-                </form>
-            </div>
-            <div class="col-sm-6">
-                <form action="" class="margen">
-                    <!--Contenedor de mensaje-->
 
-                    <div class="mensaje">
-                        <div class="inputGrup">
-                            <span class="span">
-                                <textarea rows="2" cols="40" name="consulta" placeholder="Consulta"></textarea><br>
-                            </span>
-                        </div>
+        </section>
+
+        <section class="row">
+            <div class="col-sm-12 p-0">
+                <div class="ubicacion "> <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0886754588096!2d-70.64889854914021!3d-33.44699618068062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50ac3f359ab%3A0x4ef75bb4c46eccd!2sSan%20Francisco%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1632274466802!5m2!1ses!2scl"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+            </div>
+
+        </section>
+        <form action="">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="inputGrup">
+                        <span class="span"><input type="text" name="Nombre_o_razon_social" value size="40"
+                                class="form-wb" placeholder="Nombre"></span>
                     </div>
-                </form>
-                 <!--botones-->
-                <div id="boton">
-                    <input type="submit" value="Enviar ">
-                    <input type="reset" value="Limpiar ">
+
+                    <div class="inputGrup">
+                        <span class="span"><input type="email" name="correo" class="form-wb"
+                                placeholder="E-mail"></span>
+                    </div>
+
+                    <div class="inputGrup">
+                        <span class="span"><input type="text" name="Telefono" class="form-wb"
+                                placeholder="Telefono"></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="inputGrup">
+                        <span class="span"><textarea name="message-1" cols="40" rows="10" class="form-wb"
+                                placeholder="Mensaje *"></textarea></span>
+                    </div>
+                    <div class="inputGrup ">
+                        <input type="submit" class="boton" value="Enviar ">
+                        <input type="reset" class="boton" value="Limpiar ">
+                    </div>
+
+                </div>
             </div>
-            </div>
-           
-        </div>
-        <footer class="row footer"><!--FOOTER-->
-            <div class="col-sm-12 p-0 footer__div">
+        </form>
+        <!--FOOTER-->
+        <footer class="row mt-2 footer ">
+            <h6 class="col-sm-6 footer__h6"><a href="https://webmail.cl/"> Correo electronico: ingelectric@email.com</a>
+            </h6>
+            <div class="col-sm-6 p-0 footer__div">
                 <div><a href="https://es-la.facebook.com/"><img src="../assets/Facebook.png" alt="facebook"></div></a>
-                <div><a href="https://www.instagram.com/?hl=es"><img src="../assets/Instagram.png" alt="instagram"></a></div>
+                <div><a href="https://www.instagram.com/?hl=es"><img src="../assets/Instagram.png" alt="instagram"></a>
+                </div>
                 <div><a href="https://cl.linkedin.com/"><img src="../assets/linkedin.png" alt="linkend"></a></div>
             </div>
         </footer>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
         integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
         integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
         crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
