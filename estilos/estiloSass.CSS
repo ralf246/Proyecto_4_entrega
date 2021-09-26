@@ -8310,7 +8310,7 @@ ESTILOS FOOTER
   .articulo {
     padding: 5%;
     text-align: justify;
-    font-size: 16px; }
+    font-size: 14px; }
   .footer__div img {
     width: 50%;
     align-items: center; }
@@ -8408,6 +8408,10 @@ small devices (phones, 576px and 768px )
     font-family: sans-serif;
     align-items: center;
     font-size: 12px; }
+  .articulo {
+    padding: 5%;
+    text-align: justify;
+    font-size: 14px; }
   h6, .h6 {
     font-size: 12px; }
   .garantias {
