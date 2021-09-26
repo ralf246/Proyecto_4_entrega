@@ -7897,6 +7897,11 @@ h2, .h2 {
   transform: translate(-50%, -50%);
   text-shadow: black 0.1em 0.1em 0.2em; }
 
+.articulo {
+  padding: 5%;
+  text-align: justify;
+  font-size: 20px; }
+
 /*-------------ESTILOS MAIN CONTACTO---------------------*/
 .somos {
   height: 20vh;
@@ -8001,11 +8006,6 @@ h2, .h2 {
   display: inline-block;
   line-height: 20%;
   transition: all .3s ease; }
-
-.articulo {
-  padding: 5%;
-  text-align: justify;
-  font-size: 20px; }
 
 .video {
   position: relative;
@@ -8307,6 +8307,10 @@ ESTILOS FOOTER
     font-weight: bold; }
   .casa {
     text-align: center; }
+  .articulo {
+    padding: 5%;
+    text-align: justify;
+    font-size: 16px; }
   .footer__div img {
     width: 50%;
     align-items: center; }

@@ -108,7 +108,11 @@ h2 {
     transform  : translate(-50%, -50%);
     text-shadow: black 0.1em 0.1em 0.2em;
 }
-
+.articulo {
+    padding   : 5%;
+    text-align: justify;
+    font-size : 20px;
+}
 
 /*-------------ESTILOS MAIN CONTACTO---------------------*/
 .somos {
@@ -256,11 +260,7 @@ h2 {
 }
 
 
-.articulo {
-    padding   : 5%;
-    text-align: justify;
-    font-size : 20px;
-}
+
 
 .video {
     position      : relative;
